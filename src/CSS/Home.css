@@ -1,0 +1,100 @@
+.sidemenu-active-tab
+{
+    width : 90%;
+    height : auto;
+    padding : 10px 0px;
+    margin : 10px 0px;
+
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    font-family : Bahnschrift;
+    font-size : 24px;
+    background : #FBB03B;
+    color : white;
+    border-radius : 5px;
+}
+
+.sidemenu-inactive-tab
+{
+    width : 90%;
+    height : auto;
+    padding : 10px 0px;
+    margin : 10px 0px;
+
+    display : flex;
+    justify-content : center;
+    font-family : Bahnschrift;
+    font-size : 24px;
+    background : white;
+    color : grey;
+    border-radius : 5px;
+    cursor : pointer;
+    transition : color 250ms ease;
+}
+
+.sidemenu-inactive-tab:hover
+{
+    color : #FBB03B;
+}
+
+.sidemenu-icon
+{
+    margin : 0px 5px;
+}
+
+.search-icon
+{
+    margin : 0px 20px;
+    color : grey;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.add-icon
+{
+    margin : 0px 20px;
+    color : grey;
+    transform: scale(1.5);
+    cursor : pointer;
+}
+
+.topic-button:active
+{
+    transform: scale(0.95);
+}
+
+.filter-icon
+{
+    margin : 0px 20px;
+    color : grey;
+    transform: scale(3);
+    cursor: pointer;
+}
+
+.delete-topic-icon
+{
+    cursor : pointer;
+    transform: scale(1.5);
+    margin : 0px 0px 0px 5px;
+}
+
+.filter-search select
+{
+    width : fit-content;
+    height : 50%;
+
+    margin : 0px 10px;
+
+    font-family : Bahnschrift;
+    font-size : 16px;
+}
+
+.date-picker
+{
+    margin : 0px 0px 0px 10px;
+    z-index: 5;
+}
+
+
+

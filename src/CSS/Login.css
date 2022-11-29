@@ -1,0 +1,6 @@
+.toogle-show-password
+{
+    margin : -50px 14% 35px auto;
+    z-index : 2;
+    cursor : pointer;
+}
